@@ -2,9 +2,9 @@
 
 namespace ArdaGnsrn\Macronome;
 
+use ArdaGnsrn\Macronome\Commands\MacronomeCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use ArdaGnsrn\Macronome\Commands\MacronomeCommand;
 
 class MacronomeServiceProvider extends PackageServiceProvider
 {

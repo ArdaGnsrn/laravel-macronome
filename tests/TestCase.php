@@ -2,9 +2,9 @@
 
 namespace ArdaGnsrn\Macronome\Tests;
 
+use ArdaGnsrn\Macronome\MacronomeServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use ArdaGnsrn\Macronome\MacronomeServiceProvider;
 
 class TestCase extends Orchestra
 {
